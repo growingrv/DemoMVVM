@@ -40,3 +40,10 @@ A sample app demonstrating elementary coding style and design principles for MVV
 * The app startup is delayed because of 1 single and huge API being used for whole app's functionality.
 * Use of this API also makes the code more coupled. 
 * Ideally, there should be one API similar to http://www.geonames.org/export/web-services.html for searching and providing the list of cities. Then another API should take 1 city's code as parameter and should return airports belonging to that city.
+
+## Screenshots
+<img src = "Screenshots/1.png" width=314.4 height=556.8>
+<img src = "Screenshots/2.png" width=314.4 height=556.8>
+<img src = "Screenshots/3.png" width=314.4 height=556.8>
+<img src = "Screenshots/4.png" width=314.4 height=556.8>
+<img src = "Screenshots/5.png" width=314.4 height=556.8>
