@@ -1,14 +1,14 @@
 # DemoMVVM
-A sample app demonstrating elementary coding style and design principles for MVVM design pattern.
+A sample app demonstrating **elementary coding style and design principles** for **MVVM design pattern**.
 
 ## Functional details:
-* Created an app where a user can search for the nearest airports.
-* App gets the airport details from following json URL: https://gist.githubusercontent.com/tdreyno/4278655/raw/7b0762c09b519f40397e4c3e100b097d861f5588/airports.json
+* Created an app where a user can **search for the nearest airports**.
+* App gets the airport details from following json [URL](https://gist.githubusercontent.com/tdreyno/4278655/raw/7b0762c09b519f40397e4c3e100b097d861f5588/airports.json). 
 * When user searches for a city, the app shows the city suggestions while typing.
 * When user clicks on one of the city name results, the app shows the top 5 nearest airport names with the runway length and country in a new screen 
 
 ## Implementation details:
-* First screen shows name of cities (along with state and country details) and seconds screen shows nearest 5 airports.
+* First screen shows name of cities (along with state and country details) and second screen shows nearest 5 airports.
 * Both of these screens are written as 2 separate modules.
 * The app downloads the list of airports from provided web service.
 * First screen displays the city list in a scrollable list. User can search for a city name and the app suggests names based on user's inputs. 
@@ -19,21 +19,21 @@ A sample app demonstrating elementary coding style and design principles for MVV
 
 ## Design Details:
 * Used MVVM design pattern.
-* Have kept minimum possible code in VCs and kept business logic separate from VCs.
-* For both modules, have segregated dataSource also from VC so that VC becomes even lighter. 
-* Logical and reasonable usage of main Swift features like Extensions, Optionals, Tuples, Extensions, Structs and Generics. 
-* Minimum to no use of Singleton and forced unwrapping.
-* Have written a modular layer for network interactions. 
+* Have kept **minimum possible code in VCs** and kept **business logic separate from VCs**.
+* For both screens, have segregated dataSource also from VC so that VC becomes even lighter. 
+* Logical and reasonable usage of main Swift features like **Extensions, Optionals, Tuples, Extensions, Structs and Generics**. 
+* **Minimum to no use of Singleton** and **forced unwrapping**.
+* Have written a **modular layer for network interactions**. 
 * Some major UI decisions are taken for making interactive and logical UI.
 * Followed 4 design principles:
-    * S.O.L.I.D
-    * Clean architecture
-    * DRY (Dont repeat yourself)
-    * POLA (Principle of least astonishment)
-* Taken care of coding standards and conventions.
-* Have considered cyclomatic complexity.
+    * **S.O.L.I.D**
+    * **Clean architecture**
+    * **DRY** (Dont repeat yourself)
+    * **POLA** (Principle of least astonishment)
+* Taken care of **coding standards and conventions**.
+* Have considered **cyclomatic complexity**.
 * Length of methods and file are as per standards.
-* Have written modular code which has many "plug & play" components.
+* Have written modular code which has many **"plug & play"** components.
 * Have used structs and sub structs for storing constant values for better readability. This also helps avoid manual mistakes. 
 
 ## Limitations
